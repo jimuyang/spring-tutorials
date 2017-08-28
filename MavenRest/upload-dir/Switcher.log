@@ -1,0 +1,41 @@
+
+#-----------------------------------------------------------
+# System started at 2017-07-03 16:36:04.1902
+# system: DESKTOP-5G4DPLM
+#-----------------------------------------------------------
+16:36:04.1913 switcher argument[1]: '--detected-country=CN'
+16:36:04.1913 switcher argument[2]: '--detected-region=CN'
+16:36:04.1913 switcher argument[3]: '--game=hs_beta'
+16:36:04.1913 switcher argument[4]: '--install'
+16:36:04.1913 switcher argument[5]: '--installlocale=zhCN'
+16:36:04.1913 switcher argument[6]: '--installregion=CN'
+16:36:04.1913 switcher argument[7]: '--setlanguage=zhCN'
+16:36:04.1913 switcher argument[8]: '--setregion=CN'
+16:36:04.1913 switcher argument[9]: '--torrentinstall'
+
+#-----------------------------------------------------------
+# System started at 2017-07-04 13:12:47.3134
+# system: DESKTOP-5G4DPLM
+#-----------------------------------------------------------
+13:12:47.3166 switcher argument[1]: '--game=hs_beta'
+13:12:47.3166 switcher argument[2]: '--gamepath=E:\Blizzard App\Hearthstone'
+
+#-----------------------------------------------------------
+# System started at 2017-07-10 14:54:02.3050
+# system: DESKTOP-5G4DPLM
+#-----------------------------------------------------------
+14:54:02.3166 switcher argument[1]: '--game=hs_beta'
+14:54:02.3166 switcher argument[2]: '--gamepath=E:\Blizzard App\Hearthstone'
+
+#-----------------------------------------------------------
+# System started at 2017-07-11 14:40:57.3743
+# system: DESKTOP-5G4DPLM
+#-----------------------------------------------------------
+14:40:57.3779 switcher argument[1]: '--game=hs_beta'
+14:40:57.3779 switcher argument[2]: '--gamepath=E:\Blizzard App\Hearthstone'
+
+#-----------------------------------------------------------
+# System started at 2017-08-24 15:40:20.5959
+# system: DESKTOP-5G4DPLM
+#-----------------------------------------------------------
+15:40:20.6100 switcher argument[1]: '--updatepid=32348'
