@@ -1,0 +1,21 @@
+{
+  "name": "restjs",
+  "homepage": "https://github.com/muyiyoung/MavenDemo",
+  "authors": [
+    "muyi"
+  ],
+  "description": "bower test",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "rest": "~1",
+    "curl": "~0.8"
+  }
+}

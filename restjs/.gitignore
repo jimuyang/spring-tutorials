@@ -4,3 +4,5 @@ target/*
 .project
 .settings
 *.class
+node_modules
+public/lib
