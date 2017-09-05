@@ -1,4 +1,5 @@
 var stompClient = null;
+var openID = null;
 
 function setConnected(connected) {
     $("#connect").prop("disabled", connected);
@@ -21,8 +22,17 @@ function connect() {
         stompClient.subscribe('/topic/greetings', function (greeting) {
             showGreeting(JSON.parse(greeting.body).content);
         });
+        console.log(openID);
+        stompClient.subscribe('/user/' + openID + '/message', function (greeting) {
+            showGreeting(JSON.parse(greeting.body).content);
+        });
     });
 }
+function setOpenID(){
+    openID = $("#myName").val();
+    console.log('openID : '+openID)
+}
+
 
 function disconnect() {
     if (stompClient !== null) {
@@ -36,6 +46,11 @@ function sendName() {
     stompClient.send("/app/hello", {}, JSON.stringify({'name': $("#name").val()}));
 }
 
+
+function helloAll(){
+    stompClient.send("/app/helloAll", {}, JSON.stringify({'name': openID }));
+}
+
 function showGreeting(message) {
     $("#greetings").append("<tr><td>" + message + "</td></tr>");
 }
@@ -47,4 +62,6 @@ $(function () {
     $( "#connect" ).click(function() { connect(); });
     $( "#disconnect" ).click(function() { disconnect(); });
     $( "#send" ).click(function() { sendName(); });
+    $( "#setName" ).click(function() { setOpenID(); });
+    $( "#sendAll" ).click(function() { helloAll(); });
 });
