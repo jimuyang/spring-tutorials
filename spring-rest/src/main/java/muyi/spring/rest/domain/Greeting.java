@@ -1,13 +1,9 @@
-package muyi.spring.rest;
+package muyi.spring.rest.domain;
 
 /**
  * Created with IntelliJ IDEA.
  *
  * @author: Jimu Yang.
- */
-
-/**
- *
  */
 public class Greeting {
 

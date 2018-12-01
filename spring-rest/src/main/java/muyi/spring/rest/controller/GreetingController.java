@@ -1,5 +1,6 @@
-package muyi.spring.rest;
+package muyi.spring.rest.controller;
 
+import muyi.spring.rest.domain.Greeting;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
