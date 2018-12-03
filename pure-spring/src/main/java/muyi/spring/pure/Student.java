@@ -1,6 +1,4 @@
-package muyi.spring.simple;
-
-import org.springframework.beans.factory.annotation.Value;
+package muyi.spring.pure;
 
 /**
  * @author: Jimu Yang
@@ -13,7 +11,6 @@ public class Student {
 
     private int age;
 
-    @Value("${class.name}")
     private String className;
 
     public void init() {
@@ -28,5 +25,29 @@ public class Student {
                 ", age=" + age +
                 ", className='" + className + '\'' +
                 '}';
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
     }
 }
